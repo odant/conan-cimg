@@ -7,7 +7,7 @@ from conans import ConanFile
 
 class CImgConan(ConanFile):
     name = "cimg"
-    version = "2.9.0"
+    version = "2.9.4"
     license = "CImg is a free, open-source library distributed under the CeCILL-C (close to the GNU LGPL) or CeCILL (compatible with the GNU GPL) licenses. It can be used in commercial applications."
     description = "The CImg Library is a small and open-source C++ toolkit for image processing http://cimg.eu"
     url = "https://github.com/odant/conan-cimg"
