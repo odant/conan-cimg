@@ -6,7 +6,7 @@
 #		 Used by doxygen to generate the reference documentation.
 #		 ( http://cimg.eu )
 #
-#  Copyright   : David Tschumperle
+#  Copyright   : David Tschumperlé
 #		 ( http://tschumperle.users.greyc.fr/ )
 #
 #
@@ -44,7 +44,7 @@
 /** \addtogroup cimg_overview CImg Library Overview */
 /*@{*/
 /**
-  \page foo2
+  \page overview CImg Library Overview
 
   The <b>CImg Library</b> is an image processing library, designed for C++ programmers.
   It provides useful classes and functions to load/save, display and process various types of images.
@@ -163,7 +163,7 @@
   - <b>Dev-Cpp</b> : Use the project file provided in the CImg library package to see how it works.
 
   If you are using other compilers and encounter problems, please
-  <a href="http://www.greyc.ensicaen.fr/~dtschump">write me</a> since maintaining compatibility is one
+  <a href="https://github.com/dtschump/CImg/issues">write me</a> since maintaining compatibility is one
   of the priorities of the %CImg Library. Nevertheless, old compilers that do not respect the C++ standard will not
   support the %CImg Library.
 
@@ -184,7 +184,7 @@
 /** \addtogroup cimg_faq FAQ : Frequently Asked Questions. */
 /*@{*/
 /**
-  \page foofaq
+  \page faq FAQ
 
   \section ssf0 FAQ Summary
 
@@ -284,7 +284,7 @@
   \subsection ssf16 1.6. Who is behind CImg ?
 
   CImg has been started by
-  <a href="http://tschumperle.users.greyc.fr/">David Tschumperle</a> at the beginning of his PhD thesis, in October 1999.
+  <a href="http://tschumperle.users.greyc.fr/">David Tschumperlé</a> at the beginning of his PhD thesis, in October 1999.
   He is still the main coordinator of the project.
   Since the first release, a growing number of contributors has appeared.
   Due to the very simple and compact form of the library, submitting a contribution is quite easy and can be
@@ -373,7 +373,7 @@
 /** \addtogroup cimg_environment Setting Environment Variables */
 /*@{*/
 /**
-  \page foo1
+  \page environment_variables Setting Environment Variables
 
   The CImg library is a multiplatform library, working on a wide variety of systems.
   This implies the existence of some \e environment \e variables that must be correctly defined
@@ -435,7 +435,7 @@
 /** \addtogroup cimg_visual2005 How to use CImg library with Visual C++ 2005 Express Edition ?. */
 /*@{*/
 /**
-  \page foo89198
+  \page visual_cpp How to use CImg library with Visual C++ 2005 Express Edition ?
 
   \section s13968 How to use CImg library with Visual C++ 2005 Express Edition ?
 
@@ -467,7 +467,7 @@
 /** \addtogroup cimg_tutorial Tutorial : Getting Started. */
 /*@{*/
 /**
-  \page foo3
+  \page tutorial Tutorial : Getting Started.
 
   Let's start to write our first program to get the idea. This will demonstrate how to load and create images, as well as handle image
   display and mouse events.
@@ -574,7 +574,7 @@
 /** \addtogroup cimg_loops Using Image Loops. */
 /*@{*/
 /**
-  \page foo_lo
+  \page loops_Using Image Loops.
   The %CImg Library provides different macros that define useful iterative loops over an image.
   Basically, it can be used to replace one or several <tt>for(..)</tt> instructions, but it also proposes
   interesting extensions to classical loops.
@@ -814,7 +814,7 @@
 /** \addtogroup cimg_displays Using Display Windows. */
 /*@{*/
 /**
-  \page foo_di
+  \page display Using Display Windows.
 
   When opening a display window, you can choose the way the pixel values will be normalized
   before being displayed on the screen. Screen displays only support color values between [0,255],
@@ -844,7 +844,7 @@
 /** \addtogroup cimg_storage How pixel data are stored with CImg. */
 /*@{*/
 /**
-  \page foo_store
+  \page storage How pixel data are stored with CImg?
 
   First, CImg<T> are *very* basic structures, which means that there are no memory tricks, weird memory alignments or
   disk caches used to store pixel data of images. When an image is instanced, all its pixel values are stored in memory at
@@ -901,7 +901,7 @@
 /** \addtogroup cimg_files_io Files IO in CImg. */
 /*@{*/
 /**
-  \page foo_fi
+  \page io Files IO in CImg.
 
   The %CImg Library can NATIVELY handle the following file formats :
   - RAW : consists in a very simple header (in ascii), then the image data.
@@ -927,7 +927,7 @@
 /** \addtogroup cimg_options Retrieving Command Line Arguments. */
 /*@{*/
 /**
-  \page foo_so
+  \page options Retrieving Command Line Arguments.
 
    The CImg library offers facilities to retrieve command line arguments in a console-based
    program, as it is a commonly needed operation.
